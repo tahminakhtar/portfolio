@@ -22,7 +22,7 @@ const About = (props: Props) => {
          transition={{ duration: 1.2 }}
          whileInView={{ x:0, opacity: 1 }}
          viewport={{ once: true }}
-        src="/2.png"
+        src={`${process.env.NEXT_PUBLIC_BASE_URL}/2.png`}
         className='-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-[210px] xl:w-[350px] xl:h-[450px] mt-10 xl:mt-0 md:mt-0'
       />
       <div className='space-y-10 px-0 md:px-10'>

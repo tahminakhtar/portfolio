@@ -34,7 +34,7 @@ const Projects = (props: Props) => {
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y:0 }}
                 viewport={{ once: true }}
-                src={project.image} 
+                src={`${process.env.NEXT_PUBLIC_BASE_URL}${project.image}`}
                 alt="" 
                 className='w-[70%] md:w-[50%]'
               />

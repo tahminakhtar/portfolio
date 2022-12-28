@@ -36,7 +36,7 @@ const ExperienceCard = ({experience}: Props) => {
         whileInView={{ opacity: 1, y:0 }}
         viewport={{ once: true }}
         className='w-24 h-24 md:w-[100px] md:h-[100px] rounded-full xl:w-[120px] xl:h-[120px] object-cover object-center'
-        src={experience.companyLogo}
+        src={`${process.env.NEXT_PUBLIC_BASE_URL}${experience.companyLogo}`}
       />
       <div className='px-2 md:px-10 w-[100%]'>
         <h4 className='text-2xl md:text-4xl font-light'>{experience.position.title}</h4>
