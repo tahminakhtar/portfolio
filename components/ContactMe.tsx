@@ -49,13 +49,13 @@ const ContactMe = (props: Props) => {
 
           <form 
             onSubmit={handleSubmit(onSubmit)}
-            className='flex flex-col space-y-2 w-fit justify-center mx-auto'>
-            <div className='flex space-x-2'>
-              <input {...register('name')} placeholder='Name' className='contactInput contactInputInput' type="text" />
-              <input {...register('email')} placeholder='Email' className='contactInput contactInputInput' type="email" />
+            className='flex flex-col space-y-2 justify-center mx-auto w-[100%]'>
+            <div className='flex flex-col md:flex-row space-x-0 md:space-x-2 space-y-2 md:space-y-0'>
+              <input {...register('name')} placeholder='Name' className='contactInput contactInputInput' type="text" required />
+              <input {...register('email')} placeholder='Email' className='contactInput contactInputInput' type="email" required />
             </div>
-            <input {...register('subject')} placeholder='Subject' className='contactInput contactInputInput' type="text" />
-            <textarea {...register('message')} placeholder='Message' className='contactInput ' />
+            <input {...register('subject')} placeholder='Subject' className='contactInput contactInputInput' type="text" required />
+            <textarea {...register('message')} placeholder='Message' className='contactInput ' required />
             <button className='bg-[#F7AB0A] py-2 px-10 rounded-md text-black font-bold text-lg' type='submit'>Submit</button>
           </form>
         </div>
