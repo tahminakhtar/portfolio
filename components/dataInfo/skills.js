@@ -4,7 +4,7 @@ export const skills = [
     icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/LaravelLogo.png/1200px-LaravelLogo.png",
   },
   {
-    progress: 85,
+    progress: 60,
     icon:"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png",
   },
   {
@@ -17,19 +17,14 @@ export const skills = [
   },
   {
     progress: 85,
-    icon:"https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_typescript_icon_130108.png",
+    icon:"https://cdn-icons-png.flaticon.com/512/919/919832.png",
   },
   {
     progress: 85,
     icon:"https://v4.material-ui.com/static/logo.png",
-  },
-  
-  {
-    progress: 85,
-    icon:"https://futurumresearch.com/wp-content/uploads/2020/01/aws-logo.png",
   },  
   {
-    progress: 85,
+    progress: 80,
     icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png",
   },
   {
@@ -53,15 +48,19 @@ export const skills = [
     icon:"https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png",
   },  
   {
-    progress: 85,
+    progress: 80,
     icon:"https://icon-library.com/images/ajax-icon/ajax-icon-9.jpg",
   },
   {
-    progress: 85,
+    progress: 65,
     icon:"https://cdn-icons-png.flaticon.com/512/174/174881.png",
   },
   {
-    progress: 85,
+    progress: 70,
     icon:"https://cdn.worldvectorlogo.com/logos/framework7.svg",
+  },
+  {
+    progress: 65,
+    icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
   },
 ]

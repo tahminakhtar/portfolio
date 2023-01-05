@@ -3,8 +3,8 @@ export const experiences = [
     position:{ 
       title:"Software Engineer",
       startedAt: 'Aug 2021',
-      endedAt:'',
-      isContinued: true,
+      endedAt:'Dec 2022',
+      isContinued: false,
     },
     company: "Bitfountain Inc.",
     companyLogo: "/experiences/bft.jpg",
