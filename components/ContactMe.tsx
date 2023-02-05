@@ -43,7 +43,7 @@ const ContactMe = (props: Props) => {
             
             <div className='flex items-center space-x-5 justify-center'>
               <MapPinIcon className='text-[#F7AB0A]/50 h-5 w-5 md:h-7 md:w-7 animate-pulse'/>
-              <p className='text-sm md:text-xl'>Dhaka, Bangladesh</p>
+              <p className='text-sm md:text-xl'>Bangladesh</p>
             </div>
           </div>
 
