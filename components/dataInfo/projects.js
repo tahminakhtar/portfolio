@@ -5,7 +5,7 @@ export const projects = [
     url:'',
     image: '/projects/booster.png',
     techs:[
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png",
+      "https://assets.stickpng.com/images/62c48bbdd884e8c372162223.png",
       "https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png",
       "https://cdn-icons-png.flaticon.com/512/919/919832.png",
       "https://v4.material-ui.com/static/logo.png",
@@ -18,7 +18,7 @@ export const projects = [
     url:'',
     image: '/projects/CMS_Admin.png',
     techs:[
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png",
+      "https://assets.stickpng.com/images/62c48bbdd884e8c372162223.png",
       "https://www.databaseanalyser.com/wp-content/uploads/2022/01/MySQL-logo.png",
       "https://cdn-icons-png.flaticon.com/512/919/919828.png",
     ]
