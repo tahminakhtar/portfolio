@@ -1,6 +1,46 @@
 export const experiences = [
   {
     position:{ 
+      title:"Core Tech Engineer",
+      startedAt: 'Feb 2023',
+      endedAt:'Dec 2022',
+      isContinued: true,
+    },
+    company: "Naxum Online Marketing Services, LLC",
+    companyLogo: "/experiences/naxum.jpg",
+    techStacks: [
+      {
+        name:"",
+        icon:"https://cdn2.iconfinder.com/data/icons/designer-skills/128/opencart-cms-ecommerce-shop-sale-store-page-512.png",
+      },
+      {
+        name:"",
+        icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png",
+      },
+      {
+        name:"",
+        icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/LaravelLogo.png/1200px-LaravelLogo.png",
+      },
+      {
+        name:"",
+        icon:"https://pngimg.com/uploads/mysql/mysql_PNG29.png",
+      },
+      {
+        name:"",
+        icon:"https://cdn2.iconfinder.com/data/icons/clouds-and-servers/512/Clouds_Servers-23-512.png",
+      },
+    ],
+    responsibilites:[
+      "Maintaining, developing, and innovating the codes for our back-end office of our platform",
+      "Includes bug fixing, API integration, and creating new features",
+      "Ensure our profit-generating modules are up and working.",
+      "Accountable for product and plan rebills and recurring.",
+      "Gather specific requirements and suggest solutions.",
+      "Setup Products, Plans, and Promotions",
+    ]
+  },
+  {
+    position:{ 
       title:"Software Engineer",
       startedAt: 'Aug 2021',
       endedAt:'Dec 2022',
