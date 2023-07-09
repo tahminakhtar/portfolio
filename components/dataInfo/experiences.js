@@ -67,7 +67,7 @@ export const experiences = [
       },
       {
         name:"",
-        icon:"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png",
+        icon:"https://assets.stickpng.com/images/62c48bbdd884e8c372162223.png",
       },
       {
         name:"",

@@ -5,7 +5,7 @@ export const skills = [
   },
   {
     progress: 60,
-    icon:"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png",
+    icon:"https://assets.stickpng.com/images/62c48bbdd884e8c372162223.png",
   },
   {
     progress: 85,
@@ -62,5 +62,13 @@ export const skills = [
   {
     progress: 65,
     icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
+  },
+  {
+    progress: 60,
+    icon:"https://cdn2.iconfinder.com/data/icons/designer-skills/128/opencart-cms-ecommerce-shop-sale-store-page-512.png",
+  },
+  {
+    progress: 60,
+    icon:"https://cdn2.iconfinder.com/data/icons/clouds-and-servers/512/Clouds_Servers-23-512.png",
   },
 ]
